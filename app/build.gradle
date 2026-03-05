@@ -50,7 +50,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "app.botdrop"
+        applicationId "com.droidbot"
         minSdkVersion project.properties.minSdkVersion.toInteger()
         targetSdkVersion project.properties.targetSdkVersion.toInteger()
         versionCode 9
@@ -61,14 +61,14 @@ android {
 
         buildConfigField "String", "TERMUX_PACKAGE_VARIANT", "\"" + project.ext.packageVariant + "\"" // Used by TermuxApplication class
 
-        manifestPlaceholders.TERMUX_PACKAGE_NAME = "app.botdrop"
-        manifestPlaceholders.TERMUX_APP_NAME = "BotDrop"
-        manifestPlaceholders.TERMUX_API_APP_NAME = "BotDrop:API"
-        manifestPlaceholders.TERMUX_BOOT_APP_NAME = "BotDrop:Boot"
-        manifestPlaceholders.TERMUX_FLOAT_APP_NAME = "BotDrop:Float"
-        manifestPlaceholders.TERMUX_STYLING_APP_NAME = "BotDrop:Styling"
-        manifestPlaceholders.TERMUX_TASKER_APP_NAME = "BotDrop:Tasker"
-        manifestPlaceholders.TERMUX_WIDGET_APP_NAME = "BotDrop:Widget"
+        manifestPlaceholders.TERMUX_PACKAGE_NAME = "com.droidbot"
+        manifestPlaceholders.TERMUX_APP_NAME = "DroidBot"
+        manifestPlaceholders.TERMUX_API_APP_NAME = "DroidBot:API"
+        manifestPlaceholders.TERMUX_BOOT_APP_NAME = "DroidBot:Boot"
+        manifestPlaceholders.TERMUX_FLOAT_APP_NAME = "DroidBot:Float"
+        manifestPlaceholders.TERMUX_STYLING_APP_NAME = "DroidBot:Styling"
+        manifestPlaceholders.TERMUX_TASKER_APP_NAME = "DroidBot:Tasker"
+        manifestPlaceholders.TERMUX_WIDGET_APP_NAME = "DroidBot:Widget"
 
         ndk {
             abiFilters 'arm64-v8a'
@@ -154,10 +154,10 @@ android {
         variant.outputs.all { output ->
             if (variant.buildType.name == "debug") {
                 def abi = output.getFilter(com.android.build.OutputFile.ABI)
-                outputFileName = new File("botdrop-app_" + (apkVersionTag ? apkVersionTag : project.ext.packageVariant + "-" + "debug") + "_" + (abi ? abi : "universal") + ".apk")
+                outputFileName = new File("droidbot-app_" + (apkVersionTag ? apkVersionTag : project.ext.packageVariant + "-" + "debug") + "_" + (abi ? abi : "universal") + ".apk")
             } else if (variant.buildType.name == "release") {
                 def abi = output.getFilter(com.android.build.OutputFile.ABI)
-                outputFileName = new File("botdrop-app_" + (apkVersionTag ? apkVersionTag : project.ext.packageVariant + "-" + "release") + "_" + (abi ? abi : "universal") + ".apk")
+                outputFileName = new File("droidbot-app_" + (apkVersionTag ? apkVersionTag : project.ext.packageVariant + "-" + "release") + "_" + (abi ? abi : "universal") + ".apk")
             }
         }
     }

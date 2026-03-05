@@ -91,9 +91,9 @@
             </intent-filter>
         </activity-alias>
 
-        <!-- BotDrop GUI Components -->
+        <!-- DroidBot GUI Components -->
         <activity
-            android:name="app.botdrop.BotDropLauncherActivity"
+            android:name="com.droidbot.DroidBotLauncherActivity"
             android:exported="true"
             android:theme="@style/Theme.TermuxApp.DayNight.NoActionBar">
             <intent-filter>
@@ -104,21 +104,21 @@
         </activity>
 
         <activity
-            android:name="app.botdrop.SetupActivity"
+            android:name="com.droidbot.SetupActivity"
             android:exported="false"
             android:theme="@style/Theme.TermuxApp.DayNight.NoActionBar" />
 
         <activity
-            android:name="app.botdrop.DashboardActivity"
+            android:name="com.droidbot.DashboardActivity"
             android:exported="false"
             android:theme="@style/Theme.TermuxApp.DayNight.NoActionBar" />
 
         <service
-            android:name="app.botdrop.BotDropService"
+            android:name="com.droidbot.DroidBotService"
             android:exported="false" />
 
         <service
-            android:name="app.botdrop.GatewayMonitorService"
+            android:name="com.droidbot.GatewayMonitorService"
             android:exported="false"
             android:foregroundServiceType="specialUse">
             <property
