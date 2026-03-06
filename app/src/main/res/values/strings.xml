@@ -26,7 +26,7 @@
 
 
     <!-- Termux Bootstrap Packages Installation -->
-    <string name="bootstrap_installer_body">Installing bootstrap packages‚Ä?/string>
+    <string name="bootstrap_installer_body">Installing bootstrap packages...</string>
     <string name="bootstrap_error_title">Unable to install bootstrap</string>
     <string name="bootstrap_error_body">&TERMUX_APP_NAME; was unable to install the bootstrap packages.</string>
     <string name="bootstrap_error_abort">Abort</string>
@@ -257,7 +257,7 @@
     <string name="droidbot_gateway_restarting_with_new_model">Restarting gateway for model change</string>
     <string name="droidbot_gateway_restarted_successfully">Gateway restarted successfully</string>
     <string name="droidbot_check_openclaw_updates">Check OpenClaw updates</string>
-    <string name="droidbot_loading_versions">Loading versions‚Ä?/string>
+    <string name="droidbot_loading_versions">Loading versions...</string>
     <string name="droidbot_view_log">View log</string>
     <string name="droidbot_open_web_ui">Open Web UI</string>
     <string name="droidbot_opening_web_ui">Opening Web UI</string>
@@ -269,16 +269,16 @@
     <string name="droidbot_channels">Channels</string>
     <string name="droidbot_channel_telegram">üì± Telegram</string>
     <string name="droidbot_platform_telegram">Telegram</string>
-    <string name="droidbot_connected">‚ó?Connected</string>
-    <string name="droidbot_disconnected">‚ó?‚Ä?/string>
+    <string name="droidbot_connected">‚óè Connected</string>
+    <string name="droidbot_disconnected">‚óã ‚Äî</string>
     <string name="droidbot_channel_discord">üí¨ Discord</string>
     <string name="droidbot_platform_discord">Discord</string>
     <string name="droidbot_channel_feishu">üì® Feishu</string>
     <string name="droidbot_platform_feishu">Feishu</string>
     <string name="droidbot_current_model">Current Model</string>
     <string name="droidbot_change_model">Change Model</string>
-    <string name="droidbot_start">‚ñ?Start</string>
-    <string name="droidbot_stop">‚è?Stop</string>
+    <string name="droidbot_start">‚ñ∂ Start</string>
+    <string name="droidbot_stop">‚èπ Stop</string>
     <string name="droidbot_restart">üîÑ Restart</string>
     <string name="droidbot_backup">Backup</string>
     <string name="droidbot_restore">Restore</string>
@@ -343,7 +343,7 @@
     <string name="droidbot_owliabot_desc">A leaner, safer crypto-native OpenClaw.</string>
     <string name="droidbot_owliabot_site">owlia.bot</string>
     <string name="droidbot_soon">Soon</string>
-    <string name="droidbot_step_2_4_with_back">‚Ü?Step 2/4</string>
+    <string name="droidbot_step_2_4_with_back">‚Üê Step 2/4</string>
     <string name="droidbot_choose_your_ai">Choose your AI</string>
     <string name="droidbot_select_ai_model_desc">Select an AI model to power your bot</string>
     <string name="droidbot_ai_model">AI Model</string>
@@ -354,7 +354,7 @@
     <string name="droidbot_toggle_visibility">Toggle visibility</string>
     <string name="droidbot_custom_base_url_example">e.g. https://api.example.com/v1</string>
     <string name="droidbot_verify_continue">Verify &amp; Continue</string>
-    <string name="droidbot_back_arrow">‚Ü?Back</string>
+    <string name="droidbot_back_arrow">‚Üê Back</string>
     <string name="droidbot_provider_auth">Provider Auth</string>
     <string name="droidbot_paste_key_here">Paste your key here</string>
     <string name="droidbot_open_browser_signin">Open Browser to Sign In</string>
@@ -384,7 +384,7 @@
     <string name="droidbot_setting_up_environment">Setting up environment...</string>
     <string name="droidbot_installing_openclaw">Installing OpenClaw</string>
     <string name="droidbot_takes_about_a_minute">This takes about a minute</string>
-    <string name="droidbot_continue_arrow">Continue ‚Ü?/string>
+    <string name="droidbot_continue_arrow">Continue ‚Üí</string>
     <string name="droidbot_model_badge">Model badge</string>
     <string name="droidbot_provider_name">Provider Name</string>
     <string name="droidbot_auth_method_hint">Auth method hint</string>
@@ -397,7 +397,7 @@
     <string name="droidbot_gateway_running">Gateway Running</string>
     <string name="droidbot_openclaw_version">OpenClaw v%1$s</string>
     <string name="droidbot_update_available_version">Update available: v%1$s</string>
-    <string name="droidbot_openclaw_update_available">OpenClaw update available: v%1$s ‚Ü?v%2$s\n\nA newer OpenClaw version is available.\nWould you like to update now?</string>
+    <string name="droidbot_openclaw_update_available">OpenClaw update available: v%1$s ‚Üí v%2$s\n\nA newer OpenClaw version is available.\nWould you like to update now?</string>
     <string name="droidbot_checking_openclaw">Checking OpenClaw...</string>
     <string name="droidbot_setup_required">Setup required...</string>
     <string name="droidbot_channel_setup_required">Channel setup required...</string>
@@ -412,7 +412,7 @@
     <string name="droidbot_openclaw_not_running">OpenClaw gateway is not running</string>
     <string name="droidbot_web_ui_still_starting">Web UI is still starting. Opened directly; please refresh in browser if needed.</string>
     <string name="droidbot_openclaw_web_ui_already_opening">Web UI is already opening</string>
-    <string name="droidbot_connected_gateway_starting">Connected! Gateway is starting‚Ä?/string>
+    <string name="droidbot_connected_gateway_starting">Connected! Gateway is starting...</string>
     <string name="droidbot_service_not_ready">Service not ready, please try again</string>
     <string name="droidbot_error_start_gateway">Failed to start gateway: %1$s</string>
     <string name="droidbot_unknown_error_exit_code">Unknown error (exit code: %1$d)</string>
@@ -420,7 +420,7 @@
     <string name="droidbot_skip_channel_setup_message">If you skip now, %1$s will remain unconfigured.\nYou can configure channels later from the OpenClaw Web UI.</string>
     <string name="droidbot_skip">Skip</string>
     <string name="droidbot_this_channel">This channel</string>
-    <string name="droidbot_connecting">Connecting‚Ä?/string>
+    <string name="droidbot_connecting">Connecting...</string>
     <string name="droidbot_error_enter_valid_bot_token">Please enter a valid bot token</string>
     <string name="droidbot_error_enter_app_id">Please enter your App ID</string>
     <string name="droidbot_error_enter_token">Please enter your token</string>
@@ -451,7 +451,7 @@
     <string name="droidbot_update_failed">Update Failed</string>
     <string name="droidbot_no_update_target_version">No update target version</string>
     <string name="droidbot_dismissed_update">Dismissed update: v%1$s</string>
-    <string name="droidbot_updating_model">Updating‚Ä?/string>
+    <string name="droidbot_updating_model">Updating...</string>
     <string name="droidbot_install_failed">Install failed: %1$s</string>
     <string name="droidbot_updated_to_version_refreshing">Updated to v%1$s and refreshing model list...</string>
     <string name="droidbot_updated_to_version">Updated to v%1$s</string>
