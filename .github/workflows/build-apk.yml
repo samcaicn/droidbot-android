@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - master
+      - droidbot-release
     tags:
       - 'v*'
   workflow_dispatch:
